@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemilu UPI Purwakarta 2025</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #BDC7D9;
+      padding: 15px;
+      text-align: center;
+      color: #000;
+      font-weight: bold;
+      border-bottom: 2px solid #ccc;
+    }
+    .footer {
+      background-color: #BDC7D9;
+      padding: 15px;
+      text-align: center;
+      color: #000;
+      border-top: 2px solid #ccc;
+    }
+    .info-card {
+      background-color: #ffc0cb;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .countdown {
+      background-color: #D6E4F0;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .countdown div {
+      display: inline-block;
+      margin: 0 10px;
+      text-align: center;
+    }
+    .countdown span {
+      display: block;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ff6b6b;
+    }
+    .carousel .carousel-item img {
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+    .candidate-title {
+      font-weight: bold;
+      text-align: center;
+      background-color: #ffc0cb;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    PEMILU UPI PURWAKARTA 2025
+    <button class="btn btn-dark float-end" onclick="window.location.href='index.html'">Keluar</button>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <div class="row">
+      <!-- Countdown Timer -->
+      <div class="col-md-12 text-center mb-4">
+        <div class="countdown">
+          <div>
+            <span id="days">00</span>
+            Hari
+          </div>
+          <div>
+            <span id="hours">00</span>
+            Jam
+          </div>
+          <div>
+            <span id="minutes">00</span>
+            Menit
+          </div>
+          <div>
+            <span id="seconds">00</span>
+            Detik
+          </div>
+        </div>
+      </div>
+      <!-- Schedule and Information -->
+      <div class="col-md-6">
+        <div class="info-card">
+          <h5>Jadwal Kegiatan</h5>
+          <ul type="square">
+            <li>10 November 2023: Sosialisasi Pemilu.</li>
+            <li>10-20 November 2023: Oprec gel. 1-2.</li>
+            <li>21-23 November 2023: Perpanjangan Recruitment.</li>
+            <li>25 November 2023: Verf. Bakal Calon.</li>
+            <li>26 November 2023: Deklarasi Bakal Calon.</li>
+            <li>27 November - 1 Desember 2023: Pendaftaran TIMSES.</li>
+            <li>2 Desember 2023: Verf. TIMSES.</li>
+            <li>3-4 Desember 2023: Pelaporan Dana Kampanye.</li>
+            <li>5-11 Desember 2023: Kampanye Mandiri.</li>
+            <li>12 Desember 2023: Penetapan Saksi dan Uji Public.</li>
+            <li>13 Desember 2023: Pelaporan Dana yang Telah Digunakan.</li>
+            <li>14-17 Desember 2023: Masa Tenang.</li>
+            <li>18-21 Desember 2023: Pemilu + Validasi.</li>
+            <li>22 Desember 2023: Rekapitulasi + Deklarasi.</li>
+            <li>23-24 Desember 2023: Masa Gugat.</li>
+            <li>25-26 Desember 2023: Pengkajian Gugatan.</li>
+            <li>27 Desember 2023: Persidangan.</li>
+            <li>29 Desember 2023: Penetapan SK Ketua-Wakil Ketua BEM dan Anggota DPM.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="info-card">
+          <h5>Informasi</h5>
+          <ul type="circle">
+            <li>Total Pemilih [30] Orang</li>
+            <li><a href="https://wa.me/6289661553472" class="text-dark">Laporan Masalah</a></li>
+            <li><a href="vote.html" class="text-dark">Menuju Halaman Pemilihan Kandidat</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+   <!-- Candidates Section -->
+<div class="mt-4">
+  <h5 class="candidate-title">KANDIDAT</h5>
+  <div id="candidateCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      
+      <!-- Candidate 1 -->
+      <div class="carousel-item active">
+        <div class="card">
+          <img src="image\01vote-removebg-preview.png" class="card-img-top" alt="Candidate 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Paslon 1:Kabinet Klik and Go</h5>
+            <p class="card-subtitle">Shabri & Khairunissa</p>
+            <div class="info-card text-start">
+              <h5>Visi</h5>
+              <p>Menjadikan BEM sebagai pusat inovasi kampus, di mana semua masalah mahasiswa bisa diselesaikan dengan teknologi IoT... atau minimal, bikin mahasiswa ketawa dulu sebelum stres karena tugas.</p>
+              <h5>Misi</h5>
+              <ol>
+                <li>Bikin dispenser air minum pintar yang bisa mendeteksi mahasiswa galau—kalau galau, keluar teh manis gratis!</li>
+                <li>Parkir motor kampus akan dilengkapi sensor IoT. Kalau kamu parkir sembarangan, motormu otomatis ngomel: “Hei, parkir yang bener dong!”</li>
+                <li>Semua rapat BEM bakal didukung IoT timer. Kalau bahasannya ngalor-ngidul lebih dari 5 menit, langsung ada alarm berbunyi: "Stop curhat, fokus solusi!"</li>
+                <li>Bikin aplikasi "Ngadu ke BEM" yang bisa nyimpen semua keluhan mahasiswa. Kalau keluhannya lucu, bakal ada notification: "Keluhan Anda membuat kami tertawa. Terima kasih atas hiburannya!"</li>
+                <li>Pasang sensor IoT di kantong celana kamu. Kalau kamu nggak punya uang untuk makan siang, sensor otomatis ngarahin ke warung paling murah.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Candidate 2 -->
+      <div class="carousel-item">
+        <div class="card">
+          <img src="image\02vote-removebg-preview.png"class="card-img-top" alt="Candidate 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Paslon 2: Kabinet Aksi Nyata</h5>
+            <p class="card-subtitle">Ghaisan Zahirul Haq & Fani Rifani</p>
+            <div class="info-card text-start">
+              <h5>Visi</h5>
+              <p>Mengubah kampus jadi pusat inovasi berbasis teknologi, dengan BEM sebagai penggerak utama smart campus yang berorientasi masa depan.</p>
+              <h5>Misi</h5>
+              <ol>
+                <li>Rancang sistem IoT di area publik kampus, seperti kursi pintar yang bisa "lapor" kalau lagi kosong buat bantu mahasiswa cari tempat duduk.</li>
+                <li>Kembangkan tong sampah pintar yang nggak cuma bisa pisah sampah organik dan anorganik, tapi juga bisa kasih notifikasi kalau perlu diambil.</li>
+                <li>Buat aplikasi kantin digital biar mahasiswa bisa pesan makanan favorit tanpa takut kehabisan, lengkap dengan fitur "rekomendasi gizi".</li>
+                <li>Adakan kompetisi inovasi teknologi kampus dengan tema "Bikin Kampus Jadi Lebih Pintar", hasilnya diwujudkan jadi solusi nyata.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Candidate 3 -->
+      <div class="carousel-item">
+        <div class="card">
+          <img src="image\03visimisi-removebg-preview.png" class="card-img-top" alt="Candidate 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Paslon 3: Kabinet Cendikia</h5>
+            <p class="card-subtitle">Farras Marbun & Miranda Putri</p>
+            <div class="info-card text-start">
+              <h5>Visi</h5>
+              <p>Menjadikan BEM sebagai pionir teknologi IoT dan smart campus yang mampu menciptakan kampus modern dengan harmoni teknologi dan kebutuhan mahasiswa.</p>
+              <h5>Misi</h5>
+              <ol>
+                <li>Bangun absensi IoT, cukup tap kartu atau scan wajah. Bolos? “Wajahmu ada, absensimu nggak—semangat kuliah, ya!”</li>
+                <li>Pasang tong sampah pintar yang bisa pisah sampah sendiri dan bilang, “Makasih udah buang sampah pada tempatnya!”</li>
+                <li>Digitalisasi kantin, pesan makanan via aplikasi, bayar QRIS, dan tinggal ambil tanpa antre.</li>
+                <li>Optimalkan WiFi dan ruang belajar, biar mahasiswa nyaman belajar di mana aja.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#candidateCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#candidateCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</div>
+  <!-- Footer -->
+  <footer class="footer mt-4">
+    @ PERANGKAT PEMILU 2025
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Countdown Timer Script
+    const eventDate = new Date('2025-01-01T00:00:00');
+    const updateCountdown = () => {
+      const now = new Date();
+      const diff = eventDate - now;
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      document.getElementById('days').textContent = days;
+      document.getElementById('hours').textContent = hours;
+      document.getElementById('minutes').textContent = minutes;
+      document.getElementById('seconds').textContent = seconds;
+    };
+
+    setInterval(updateCountdown, 1000);
+  </script>
+</body>
+</html>
